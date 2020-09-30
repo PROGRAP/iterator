@@ -1,0 +1,31 @@
+{
+  "name": "@prograp/iterator",
+  "version": "1.0.0",
+  "description": "Iterator library for ECMAScript",
+  "main": "lib/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PROGRAP/iterator.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-plugin-jsdoc": "^30.6.2"
+  },
+  "keywords": [
+    "iterator",
+    "javascript",
+    "ecmascript",
+    "es",
+    "js"
+  ],
+  "author": "PROGRAP <mail@prograp.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PROGRAP/iterator/issues"
+  },
+  "homepage": "https://github.com/PROGRAP/iterator#readme"
+}

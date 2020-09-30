@@ -1,0 +1,22 @@
+{
+  "ecmaVersion": 8,
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [],
+  "plugins": {
+    "doc_comment": {
+      "strong": true
+    },
+    "complete_strings": {
+      "maxLength": 15
+    },
+    "node_resolve": {},
+    "modules": {
+      "load": "",
+      "modules": ""
+    },
+    "es_modules": {},
+    "commonjs": {}
+  }
+}
