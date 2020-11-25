@@ -39,7 +39,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm publish --tag ${{github.event.release.prerelease && 'dev' || 'latest'}}
+      - run: npm publish --access public --tag ${{github.event.release.prerelease && 'dev' || 'latest'}}
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
